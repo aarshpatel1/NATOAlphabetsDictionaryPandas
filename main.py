@@ -31,7 +31,7 @@ def nato_alphabet():
         user_result = [alphabet_code[letter] for letter in user_input]
     except KeyError:
         print("You can enter only alphabets in the input..!")
-        nato_alphabet()
+        nato_alphabet()  # recursion
     else:
         print(user_result)
 
